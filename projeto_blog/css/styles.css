@@ -17,8 +17,8 @@ main {
 /* NAVBAR */
 #logo {
     position: absolute;
-    top: 6px;
-    left: 9.5%;
+    top: 8px;
+    left: 50px;
 }
 
 #logo img {
@@ -44,6 +44,7 @@ main {
     color: #fff;
     text-decoration: none;
     transition: .5s;
+    padding-right: 150px;
     font-size: 14px;
 }
 
@@ -80,6 +81,7 @@ main {
 .post-box {
     flex: 1 1 0;
     margin-bottom: 100px;
+    
 }
 
 .post-box img {
@@ -157,6 +159,7 @@ main {
 .img-container {
     margin-top: 30px;
     margin-bottom: 30px;
+    text-align: center;    
 }
 .img-container img {
     width: 20%;
@@ -242,4 +245,18 @@ footer {
         padding: 15px;
         margin: 0;
     }
+
+    /* POSTS */
+
+    #post-container {
+        grid-template-columns: 100%;
+        padding: 15px;
+        grid-template-areas: "main"
+        "sidebar";
+    }
+
+    .img-container img {
+        width: 100%;
+    }
+
 }
