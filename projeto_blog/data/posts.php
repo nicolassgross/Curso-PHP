@@ -3,30 +3,37 @@
   $posts = [
     [
       'id' => 1,
-      'title' => 'Programando em PHP',
-      'description' => 'Neste post você vai aprender tudo que precisa para ser um bom programador de PHP!',
-      'tags' => ['programação', 'PHP', 'lógica de programação'],
-      'img' => 'prog-1.jpg'
+      'title' => 'Gestão de clubes com a Bluware',
+      'description' => 'Neste tópico iremos dar dicas para a gestão do seu clube. Serão apresentados novos conceitos e regras de negócio.',
+      'tags' => ['Clubes', 'Gestão', 'Bluware'],
+      'img' => 'clube1.jpg'
     ],
     [
       'id' => 2,
-      'title' => 'Orientação a Objetos com Java',
-      'description' => 'Aprenda o paradigma de orientação a objetos com Java, uma linguagem em alta no mercado.',
-      'tags' => ['Java', 'OOP', 'Programação Avançada'],
-      'img' => 'prog-2.jpg'
+      'title' => 'Elite Clube',
+      'description' => 'Especialmente desenvolvido para gestão de clubes e associações. Efetua o controle de todos os aspectos administrativos e cadastrais inerentes aos clubes.',
+      'tags' => ['Elite Clube', 'Administração', 'Associações'],
+      'img' => 'eliteclube.jpg'
     ],
     [
       'id' => 3,
-      'title' => 'A importância da lógica de programação',
-      'description' => 'A lógica de programação é o ponto inicial de muitos estudantes de programação, será que é importante?',
-      'tags' => ['lógica', 'programação', 'algoritmos'],
-      'img' => 'prog-3.jpg',
+      'title' => 'Elite Web',
+      'description' => 'Permite aos associados, pela internet, verificar seus dados cadastrais, efetuar reservas de dependências e imprimir boletos de cobrança. Tudo de forma totalmente integrada com a secretaria do Clube.',
+      'tags' => ['Elite Web', 'Associado', 'Acessibilidade'],
+      'img' => 'eliteweb.jpg',
     ],
     [
       'id' => 4,
-      'title' => 'Programando em PHP',
-      'description' => 'Neste post você vai aprender tudo que precisa para ser um bom programador de PHP!',
-      'tags' => ['programação', 'PHP', 'lógica de programação'],
-      'img' => 'prog-4.jpg'
+      'title' => 'Elite Marina',
+      'description' => 'Desenvolvido especialmente para Iate Clubes e Marinas, permite o cadastramento e controle das embarcações. Além de ser totalmente integrado com o módulo de gestão e controle financeiro.',
+      'tags' => ['Elite Marina', 'Embarcações', 'Gestão de Iate Clubes'],
+      'img' => 'elitemarina.jpg'
+    ],
+    [
+      'id' => 5,
+      'title' => 'Elite Acesso',
+      'description' => 'Perfeito para controle de acesso em clubes e associações. Pode funcionar "em tempo real" com catracas eletrônicas para controle com carteirinhas ou biometria.',
+      'tags' => ['Elite Acesso', 'Identificação', 'Inovação'],
+      'img' => 'eliteacesso.jpg'
     ],
   ];

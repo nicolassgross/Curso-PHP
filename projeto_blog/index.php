@@ -3,8 +3,8 @@
 ?>
     <main>
         <div id="title-container">
-            <h1>Blog Nicolas</h1>
-            <p>O seu Blog de Técnologia</p>
+            <h1>SOFTWARE PARA CLUBES E ASSOCIAÇÕES <br> GESTÃO ADMINISTRATIVA E CONTROLE DE ACESSO</h1>
+            <p>O software mais utilizado no Brasil</p>
         </div>
         <div id="posts-container">
             <?php foreach($posts as $post): ?>
