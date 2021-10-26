@@ -1,5 +1,7 @@
 <?php
     include_once("helpers/url.php");
+    include_once("data/posts.php");
+    include_once("data/categories.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,15 +18,15 @@
 </head>
 <body>
     <header>
-        <a href="<?php $BASE_URL ?>" id="logo">
+        <a href="<?php $BASE_URL ?>./" id="logo">
             <img src="<?php $BASE_URL ?>img/logo.svg" alt="Blog">
         </a>
-         <nav>
-        <ul id="navbar">
-            <li><a href="<?php $BASE_URL ?>" class="nav-link">Home</a></li>
-            <li><a href="#" class="nav-link">Categorias</a></li>
-            <li><a href="#" class="nav-link">Sobre</a></li>
-            <li><a href="<?php $BASE_URL ?>contato.php"  class="nav-link">Contato</a></li>
-        </ul>
+        <nav>
+            <ul id="navbar">
+                <li><a href="<?php $BASE_URL ?>./" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">Categorias</a></li>
+                <li><a href="#" class="nav-link">Sobre</a></li>
+                <li><a href="<?php $BASE_URL ?>contato.php" class="nav-link">Contato</a></li>
+            </ul>
         </nav>
     </header>

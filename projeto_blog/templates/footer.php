@@ -1,5 +1,5 @@
 <footer>
-    <p>Hora de Codar &copy; 2020</p>
+    <p>Desenvolvido por Nicolas Gross &copy; 2021</p>
 </footer>
 </body>
 </html>
